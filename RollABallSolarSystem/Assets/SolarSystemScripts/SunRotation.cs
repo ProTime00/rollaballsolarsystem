@@ -10,7 +10,7 @@ public class SunRotation : MonoBehaviour
 
     void FixedUpdate()
     {
-        float angle = (float)(27 / 365.25) * instance.speedOfTime;
+        float angle = 1/27f * instance.speedOfTime;
         transform.Rotate(Vector3.up, angle);
     }
 }
