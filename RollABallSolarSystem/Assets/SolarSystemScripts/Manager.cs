@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Manager : MonoBehaviour
 {
@@ -10,5 +12,12 @@ public class Manager : MonoBehaviour
         instance = this;
         speedOfTime = 10;
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.C))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Menu");
+        }
+    }
 }
