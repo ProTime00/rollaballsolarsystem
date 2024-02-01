@@ -1,0 +1,289 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/angesicard/Desktop/CSUMB/326/rollaballsolarsystem/RollABallSolarSystem
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53222
+Successfully changed project path to: /Users/angesicard/Desktop/CSUMB/326/rollaballsolarsystem/RollABallSolarSystem
+/Users/angesicard/Desktop/CSUMB/326/rollaballsolarsystem/RollABallSolarSystem
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8109838336] Host "[IP] 10.11.118.119 [Port] 0 [Flags] 2 [Guid] 3250813125 [EditorId] 3250813125 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Ange.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8109838336] Host "[IP] 10.11.118.119 [Port] 0 [Flags] 2 [Guid] 3250813125 [EditorId] 3250813125 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-de-Ange.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 12.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/angesicard/Desktop/CSUMB/326/rollaballsolarsystem/RollABallSolarSystem/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56277
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001883 seconds.
+- Loaded All Assemblies, in  0.237 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.145 seconds
+Domain Reload Profiling: 382ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (82ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (145ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.334 seconds
+Domain Reload Profiling: 745ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (186ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (250ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (52.3 KB). Loaded Objects now: 3964.
+Memory consumption went from 142.1 MB to 142.1 MB.
+Total: 2.791208 ms (FindLiveObjects: 0.125416 ms CreateObjectMapping: 0.061667 ms MarkObjects: 2.517208 ms  DeleteObjects: 0.086541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JupiterSelf.cs: cd654df852556d77a21d1cb88bc6cc4e -> edb37459ba5028090a6b2643c30abd8a
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Jupiter.cs: 6e74cae918388ff4b2788415860facde -> 45e1ed3614bccdc3619b6e2609e9ccdb
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/NeptuneSelf.cs: f3580de1a6a9cd8164d5ead5f4611209 -> f46134aeef4d15adaeb293d105e39591
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Venus.cs: 7a3274847514acd6a9b47864ee2abd0b -> 8730a5ee349dc00b21f89db3d31d5074
+  custom:scripting/monoscript/fileName/Saturne.cs: 9dbb21137ffe132108af66db5afa2bc0 -> a52bfdcf5fcd502a66a36954bf029068
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Mercure.cs: 2bdda76faa702c0df98e61275d067d75 -> 643ffd415a25e598476501f6b01fb0c4
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/UranusSelf.cs: d0f6ab8cc46ae184c5614eff3ae36ea8 -> aa893977e17d88f1cb427bb05627cebf
+  custom:scripting/monoscript/fileName/CameraController.cs: 8c1552359b63a9cc2441f8476730760e -> 9afc567523072d385e7e839f14f42a40
+  custom:scripting/monoscript/fileName/Mars.cs: 153f3a5c82467366a57b7b6616fccb7b -> fdbf8c5c0838c5a8fced4c2784c64681
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MercureSelf.cs: e3db6d156289e7bdade872385c4422c6 -> d53b7790603cde62a0a056a21e6fab8b
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VenusSelf.cs: f4f80ecff2f0313e51077f4143ae61e0 -> ce23681334d1f7b4bd0cb89c0bae5fbb
+  custom:scripting/monoscript/fileName/Neptune.cs: e2694d8ee8d334e30d1fbbeb0fae898b -> fb9ae0fca555fe1bf1b5c281034da2a9
+  custom:scripting/monoscript/fileName/MarsSelf.cs: a2eda2a0081215c4224588c88a4a4e06 -> 5d9d85c216270d293fc7ee1bff2e46f4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SaturneSelf.cs: 8e80aa4db194bbb7738f5fb9f7e42ce0 -> 7a8a4df57d2b846df9e82887a1fe03a2
+  custom:scripting/monoscript/fileName/Rotator.cs: 3d48e8471c5f0ebc9eb2cc1ecbfb61f2 -> 8d1c63393acfe743b0e9b2fdd36433f3
+  custom:scripting/monoscript/fileName/Uranus.cs: 073ef950c0f72378f769b9d0eff4fb62 -> 8e1151b6f373f469fba8807c8f46c612
+========================================================================
+Received Import Request.
+  Time since last request: 28917.781758 seconds.
+  path: Assets/Scenes/RollABall.unity
+  artifactKey: Guid(dbff5afa0b6e44943a21b749db141ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RollABall.unity using Guid(dbff5afa0b6e44943a21b749db141ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad2087295ff208d40c061c462410900') in 0.001142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3964.
+Memory consumption went from 82.9 MB to 82.9 MB.
+Total: 9.944167 ms (FindLiveObjects: 0.153208 ms CreateObjectMapping: 0.060542 ms MarkObjects: 9.683791 ms  DeleteObjects: 0.046334 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JupiterSelf.cs: cd654df852556d77a21d1cb88bc6cc4e -> edb37459ba5028090a6b2643c30abd8a
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Jupiter.cs: 6e74cae918388ff4b2788415860facde -> 45e1ed3614bccdc3619b6e2609e9ccdb
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/NeptuneSelf.cs: f3580de1a6a9cd8164d5ead5f4611209 -> f46134aeef4d15adaeb293d105e39591
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Venus.cs: 7a3274847514acd6a9b47864ee2abd0b -> 8730a5ee349dc00b21f89db3d31d5074
+  custom:scripting/monoscript/fileName/Saturne.cs: 9dbb21137ffe132108af66db5afa2bc0 -> a52bfdcf5fcd502a66a36954bf029068
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Mercure.cs: 2bdda76faa702c0df98e61275d067d75 -> 643ffd415a25e598476501f6b01fb0c4
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/UranusSelf.cs: d0f6ab8cc46ae184c5614eff3ae36ea8 -> aa893977e17d88f1cb427bb05627cebf
+  custom:scripting/monoscript/fileName/CameraController.cs: 8c1552359b63a9cc2441f8476730760e -> 9afc567523072d385e7e839f14f42a40
+  custom:scripting/monoscript/fileName/Mars.cs: 153f3a5c82467366a57b7b6616fccb7b -> fdbf8c5c0838c5a8fced4c2784c64681
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MercureSelf.cs: e3db6d156289e7bdade872385c4422c6 -> d53b7790603cde62a0a056a21e6fab8b
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VenusSelf.cs: f4f80ecff2f0313e51077f4143ae61e0 -> ce23681334d1f7b4bd0cb89c0bae5fbb
+  custom:scripting/monoscript/fileName/Neptune.cs: e2694d8ee8d334e30d1fbbeb0fae898b -> fb9ae0fca555fe1bf1b5c281034da2a9
+  custom:scripting/monoscript/fileName/MarsSelf.cs: a2eda2a0081215c4224588c88a4a4e06 -> 5d9d85c216270d293fc7ee1bff2e46f4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SaturneSelf.cs: 8e80aa4db194bbb7738f5fb9f7e42ce0 -> 7a8a4df57d2b846df9e82887a1fe03a2
+  custom:scripting/monoscript/fileName/Rotator.cs: 3d48e8471c5f0ebc9eb2cc1ecbfb61f2 -> 8d1c63393acfe743b0e9b2fdd36433f3
+  custom:scripting/monoscript/fileName/Uranus.cs: 073ef950c0f72378f769b9d0eff4fb62 -> 8e1151b6f373f469fba8807c8f46c612
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3964.
+Memory consumption went from 82.4 MB to 82.4 MB.
+Total: 6.729750 ms (FindLiveObjects: 0.144000 ms CreateObjectMapping: 0.055583 ms MarkObjects: 6.496084 ms  DeleteObjects: 0.033916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JupiterSelf.cs: cd654df852556d77a21d1cb88bc6cc4e -> edb37459ba5028090a6b2643c30abd8a
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Jupiter.cs: 6e74cae918388ff4b2788415860facde -> 45e1ed3614bccdc3619b6e2609e9ccdb
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:scripting/monoscript/fileName/NeptuneSelf.cs: f3580de1a6a9cd8164d5ead5f4611209 -> f46134aeef4d15adaeb293d105e39591
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Venus.cs: 7a3274847514acd6a9b47864ee2abd0b -> 8730a5ee349dc00b21f89db3d31d5074
+  custom:scripting/monoscript/fileName/Saturne.cs: 9dbb21137ffe132108af66db5afa2bc0 -> a52bfdcf5fcd502a66a36954bf029068
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/Mercure.cs: 2bdda76faa702c0df98e61275d067d75 -> 643ffd415a25e598476501f6b01fb0c4
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/UranusSelf.cs: d0f6ab8cc46ae184c5614eff3ae36ea8 -> aa893977e17d88f1cb427bb05627cebf
+  custom:scripting/monoscript/fileName/CameraController.cs: 8c1552359b63a9cc2441f8476730760e -> 9afc567523072d385e7e839f14f42a40
+  custom:scripting/monoscript/fileName/Mars.cs: 153f3a5c82467366a57b7b6616fccb7b -> fdbf8c5c0838c5a8fced4c2784c64681
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MercureSelf.cs: e3db6d156289e7bdade872385c4422c6 -> d53b7790603cde62a0a056a21e6fab8b
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VenusSelf.cs: f4f80ecff2f0313e51077f4143ae61e0 -> ce23681334d1f7b4bd0cb89c0bae5fbb
+  custom:scripting/monoscript/fileName/Neptune.cs: e2694d8ee8d334e30d1fbbeb0fae898b -> fb9ae0fca555fe1bf1b5c281034da2a9
+  custom:scripting/monoscript/fileName/MarsSelf.cs: a2eda2a0081215c4224588c88a4a4e06 -> 5d9d85c216270d293fc7ee1bff2e46f4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SaturneSelf.cs: 8e80aa4db194bbb7738f5fb9f7e42ce0 -> 7a8a4df57d2b846df9e82887a1fe03a2
+  custom:scripting/monoscript/fileName/Rotator.cs: 3d48e8471c5f0ebc9eb2cc1ecbfb61f2 -> 8d1c63393acfe743b0e9b2fdd36433f3
+  custom:scripting/monoscript/fileName/Uranus.cs: 073ef950c0f72378f769b9d0eff4fb62 -> 8e1151b6f373f469fba8807c8f46c612

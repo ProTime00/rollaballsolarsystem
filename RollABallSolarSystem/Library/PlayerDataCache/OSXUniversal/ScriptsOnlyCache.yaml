@@ -4,12 +4,26 @@ ScriptsOnlyBuild:
     - CameraController
     - EarthRotation
     - EarthRotationSelf
+    - Jupiter
+    - JupiterSelf
     - Manager
+    - Mars
+    - MarsSelf
+    - Mercure
+    - MercureSelf
     - MoonRotation
+    - Neptune
+    - NeptuneSelf
     - RollABallScripts.Movement
     - Rotator
+    - Saturne
+    - SaturneSelf
     - SceneManager
     - SunRotation
+    - Uranus
+    - UranusSelf
+    - Venus
+    - VenusSelf
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
@@ -123,29 +137,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 1688}
+      Script: {instanceID: 1714}
     - Class: 114
-      Script: {instanceID: 2216}
+      Script: {instanceID: 2246}
     - Class: 114
-      Script: {instanceID: 2694}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 4614}
+      Script: {instanceID: 4656}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5652}
+      Script: {instanceID: 5704}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 6494}
+      Script: {instanceID: 6550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -196,31 +210,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 2694}
+      Script: {instanceID: 2724}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 3222}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 3932}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 6140}
+      Script: {instanceID: 5776}
     - Class: 114
-      Script: {instanceID: 6494}
+      Script: {instanceID: 6026}
     - Class: 114
-      Script: {instanceID: 23884}
+      Script: {instanceID: 6196}
     - Class: 114
-      Script: {instanceID: 24126}
+      Script: {instanceID: 6550}
     - Class: 114
-      Script: {instanceID: 24712}
+      Script: {instanceID: 6672}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -267,27 +281,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1608}
     - Class: 114
-      Script: {instanceID: 2270}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 2614}
+      Script: {instanceID: 2072}
     - Class: 114
-      Script: {instanceID: 2736}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2908}
+      Script: {instanceID: 2644}
     - Class: 114
-      Script: {instanceID: 3894}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 2938}
     - Class: 114
-      Script: {instanceID: 5312}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 5378}
+      Script: {instanceID: 3636}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 3914}
     - Class: 114
-      Script: {instanceID: 6140}
+      Script: {instanceID: 3932}
+    - Class: 114
+      Script: {instanceID: 4038}
+    - Class: 114
+      Script: {instanceID: 4068}
+    - Class: 114
+      Script: {instanceID: 4544}
+    - Class: 114
+      Script: {instanceID: 4810}
+    - Class: 114
+      Script: {instanceID: 5270}
+    - Class: 114
+      Script: {instanceID: 5358}
+    - Class: 114
+      Script: {instanceID: 5424}
+    - Class: 114
+      Script: {instanceID: 5480}
+    - Class: 114
+      Script: {instanceID: 5482}
+    - Class: 114
+      Script: {instanceID: 5558}
+    - Class: 114
+      Script: {instanceID: 6026}
+    - Class: 114
+      Script: {instanceID: 6036}
+    - Class: 114
+      Script: {instanceID: 6196}
+    - Class: 114
+      Script: {instanceID: 8400}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -373,6 +415,12 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
+      Hash: c13518012e4d6784c15d2d38be0c3bc2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UranusSelf
+  - hash:
+      serializedVersion: 2
       Hash: f778e23b6ff26b8de4721be0eb1fa240
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -383,6 +431,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7c8a6a8dd23e8ecf07746e5f45efad4f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaturneSelf
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -571,6 +625,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 2cb49a1cc035f62d0611cef8c469601f
+    assemblyName: Assembly-CSharp
+    namespaceName: RollABallScripts
+    className: Movement
+  - hash:
+      serializedVersion: 2
       Hash: d90629714fa6b0145fcaffc87f5c6559
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -599,6 +659,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e0d2f81e5e39b6cc1ad27689925d9b09
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Jupiter
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -643,6 +709,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 1e28ee7b71f012ff7ce972f3064cdae5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MercureSelf
+  - hash:
+      serializedVersion: 2
       Hash: e6f8333cc8a800e2866870a5ef7efc35
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -673,6 +745,12 @@ ScriptsOnlyBuild:
     className: ScriptGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 61449db032b79fa56dbe7e661a50ffa4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JupiterSelf
+  - hash:
+      serializedVersion: 2
       Hash: 42284ecb06b05bfc619be3758fa5dd7a
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
@@ -695,6 +773,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MoonRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 0b0482570aaa90efe6b170ec712f3a65
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MarsSelf
   - hash:
       serializedVersion: 2
       Hash: 95426d463074947dcbffc797c44e779c
@@ -793,6 +877,12 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 1db4c184a8164a840051c8c5878b7e01
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Uranus
+  - hash:
+      serializedVersion: 2
       Hash: e7e95903ca66d58e1a7cbd71f824e16d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -827,6 +917,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: bf1e0f717ac2169e1a4f65636de734f0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Saturne
   - hash:
       serializedVersion: 2
       Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
@@ -907,6 +1003,12 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerStayMessageListener
   - hash:
       serializedVersion: 2
+      Hash: e0f08b646928caaa6b45e9897859f75e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Mars
+  - hash:
+      serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -955,6 +1057,24 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 5a00801bdfce256cf530dcd47327c692
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Venus
+  - hash:
+      serializedVersion: 2
+      Hash: 3877dba60511569e5e890fd6a46ae0d3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VenusSelf
+  - hash:
+      serializedVersion: 2
+      Hash: 7e8c7ef4d070fa1f4bf9d738ab2a13bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NeptuneSelf
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -985,6 +1105,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 076c28ccbd188d2ce38309e4d1f91798
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Rotator
+  - hash:
+      serializedVersion: 2
       Hash: 2071f7ac454ae14eafecfd4041edae3a
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1007,6 +1133,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 74fba6d71c4794742413a571e151e41c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Neptune
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -1067,6 +1199,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 17cdf856d44d83cec2511485836dd2ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraController
   - hash:
       serializedVersion: 2
       Hash: bc75926bfd3609757f7bf33ff766f026
@@ -1309,6 +1447,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: 5cd126cb14b078a97ef52c499e22808a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Mercure
+  - hash:
+      serializedVersion: 2
       Hash: c4cdb902228df56d5b2b639d6a6bbd3c
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
@@ -1343,24 +1487,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 2cb49a1cc035f62d0611cef8c469601f
-    assemblyName: Assembly-CSharp
-    namespaceName: RollABallScripts
-    className: Movement
-  - hash:
-      serializedVersion: 2
-      Hash: 17cdf856d44d83cec2511485836dd2ec
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CameraController
-  - hash:
-      serializedVersion: 2
-      Hash: 076c28ccbd188d2ce38309e4d1f91798
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Rotator
   platform: 2
   scenePathNames:
   - Assets/Scenes/Menu.unity
