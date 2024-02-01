@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SolarSystem.unity
+    guid: a86f3a4faf9d642d9b426fae8f7bc8ee
+  - enabled: 1
+    path: Assets/Scenes/RollABall.unity
+    guid: dbff5afa0b6e44943a21b749db141ea4
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: cc4758b9cee4448018132a28247f535a
   m_configObjects: {}
